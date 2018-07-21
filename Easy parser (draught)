@@ -12,7 +12,7 @@ def find_categories():
     for div in divs:
         li_category = div.find('div', {'class': 'list-unstyled list-wide category_tree'}) 
         li_text = li_category.find('href').text
-        prnt(li_text)
+        print(li_text)
        
        
  print(find_categories())
