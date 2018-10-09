@@ -1,0 +1,13 @@
+// My firsth C #'s programm 
+using System; // download System's namespace from .Net library for use it's methods 
+namespace HelloWorld // Here we create our personal namespace, with ourselves classes, methods and etc. 
+{   
+    class Hello // Here we create our personal class 
+    {
+        static void Main() // "void" mean's that our class retutrn's nothing, he's just "static". Also this is an enter point in our programm 
+        {
+            Console.WriteLine("Hello World!"); // With using "Console" namespace we get "Writeline" method and output our string
+            Console.ReadKey(); // "Readkey" method keep's the console window open till user press any key
+        }
+    }
+}
